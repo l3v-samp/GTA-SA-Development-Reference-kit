@@ -1,9 +1,17 @@
 # GTA SA Development Reference kit
 
+Start with [modules/README.md](modules/README.md) for the canonical modular runtime scaffolds and actual reference sources. [modules/FEATURE_GUIDE.md](modules/FEATURE_GUIDE.md) routes miner jobs, speedometers, hunger/thirst, inventory and filterscripts to source files from multiple gamemodes.
+
+The modules directory contains ten upstream Pawn source snapshots, available bundled includes, a separate versioned dependency source pack, feature/include indexes and exact commit locks. It also contains modular Pawn (0.3.7/open.mp), MoonLoader Lua, MTA Lua, ASI C++ and Blender starters. ZIP archives preserve original folder trees; extract them before code inspection. Four upstream dependency declarations remain unresolved and runtime compilation has not been verified. DL-only examples are labeled as porting references.
+
+The older links and templates below remain supplementary; modules/ is authoritative for source/reference routing.
+
+## Supplementary development guide
+
 Small cloud-first reference hub for Pawn, SA-MP/open.mp, MoonLoader, ASI C++, MTA Lua, Blender, INU Tools, Ariane and GTA formats.
 
 ## Storage strategy
-Keep only this hub and your project source in GitHub. Fetch individual upstream repositories in the cloud when a task needs them. Never commit downloaded references, game files, build caches or credentials. This repository does not install software or launch a paid cloud machine.
+Keep only this hub and your project source in GitHub. Fetch individual upstream repositories in the cloud when a task needs them. Curated source references are committed under modules/; keep temporary downloads, game files, build caches and credentials out of Git. This repository does not install software or launch a paid cloud machine.
 
 ## Reference catalog
 These are upstream links collected for research, not vendored dependencies. Check availability, README, license, supported versions and actual source before use. Some are historical or community-maintained. Inclusion does not certify compatibility or current maintenance.

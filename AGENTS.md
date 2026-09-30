@@ -22,5 +22,13 @@ Keep projects under projects/category/name/ with dependencies, build/export comm
 Run meaningful compilation or syntax/export checks. Re-import assets and inspect normals, UVs, materials, prelighting, collision, bone IDs and skin weights. State when runtime testing was unavailable. Never claim an AMX/ASI/DFF/TXD/COL is game-ready without relevant verification.
 No paid machine or billing change is authorized by this setup.
 
-## Bundled Pawn source pack
-For Pawn tasks, read PAWN_LIBRARIES.md first. Actual sources are in pawn-libraries-source.zip. Extract with `python3 -m zipfile -e pawn-libraries-source.zip references-cache/pawn`, then search those local files with rg. Use PAWN_SOURCE_LOCK.json for upstream commits and PAWN_FUNCTION_INDEX.tsv as a declaration search aid. Select profiles/samp037 or profiles/openmp; never mix their standard include roots. Inspect matching upstream READMEs before enabling third-party plugins. The archive contains source only, not compiled plugins.
+
+## Canonical modular reference workflow
+
+For new feature requests, first read modules/README.md and modules/FEATURE_GUIDE.md. Choose Pawn SA-MP 0.3.7, Pawn open.mp, MoonLoader Lua, MTA Lua client/server, ASI C++, or asset tooling before implementation. Use the corresponding modular starter archive; preserve core/config/feature/lifecycle boundaries.
+
+For Pawn, use modules/REFERENCE_LOCK.json to select an exact snapshot, extract the needed OWNER--REPO-source.zip and pawn-reference-dependencies.zip into a reference working directory, and search modules/FEATURE_INDEX.json. Inspect at least two relevant implementations when available; mining has one identified complete job reference plus other job architecture examples. Do not mistake Minerext.pwn mapping for mining logic. Read associated includes, enums, account data, callbacks, timers, HUD, persistence, schema, manifest and license before adapting. Record upstream commit and paths in implementation notes.
+
+Keep dependencies in separate versioned paths; do not flatten conflicting includes or silently upgrade packages. Check modules/DEPENDENCY_REPORT.md and INCLUDE_AUDIT.json: unresolved packages and generated includes must be reported, not assumed present. Snapshot packs omit binaries, player data, database row dumps and model/audio assets; they are not deployment-ready servers. DL examples require explicit porting to 0.3.7/open.mp. Preserve author attribution and license terms.
+
+New jobs/HUD/inventory systems must have feature config, data, service logic, UI and persistence separated where applicable. One callback owner or the project existing hook framework dispatches features. Clean timers, TextDraws, entities and player state on lifecycle exit. Keep MoonLoader and MTA APIs separate. Do not describe an uncompiled scaffold or an indexed keyword hit as a tested working system.
