@@ -1,4 +1,4 @@
-# GTA-SA-Codex-Dev
+# GTA SA Development Reference kit
 
 Small cloud-first reference hub for Pawn, SA-MP/open.mp, MoonLoader, ASI C++, MTA Lua, Blender, INU Tools, Ariane and GTA formats.
 
