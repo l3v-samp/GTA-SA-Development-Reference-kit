@@ -1,8 +1,0 @@
-cmake_minimum_required(VERSION 3.20)
-project(ReferenceKitASI LANGUAGES CXX)
-if(NOT WIN32 OR NOT CMAKE_SIZEOF_VOID_P EQUAL 4)
-    message(FATAL_ERROR "Build for Windows x86 (e.g. Visual Studio generator with -A Win32)")
-endif()
-add_library(reference_kit SHARED starter.cpp)
-target_compile_features(reference_kit PRIVATE cxx_std_17)
-set_target_properties(reference_kit PROPERTIES PREFIX "" SUFFIX ".asi")
