@@ -67,3 +67,15 @@ Never label an AMX/ASI/DFF/TXD/COL ready for the game until its relevant build/e
 ## Prepare gamemode and filterscript trees
 
 Run `python3 modules/prepare_references.py --all --starters` after checking out this repository. It creates separate readable source trees for five gamemode repositories, four filterscript repositories, one collection, versioned dependencies and runtime starters. Use `--feature miner`, `--feature speedometer`, `--feature needs` or `--feature inventory` for focused preparation. Read [PREPARE_REFERENCES.md](modules/PREPARE_REFERENCES.md) for paths and options. The source pack now includes the previously missing pinned YSI commit and all four pinned submodules: 75 dependency packages are fetched; three declarations remain unresolved.
+
+## Canonical folders
+
+| Folder | Purpose |
+|---|---|
+| modules/pawn/samp | Pawn for SA-MP 0.3.7/open.mp; gamemode and filterscript references, includes and libraries |
+| modules/lua/moonloader | MoonLoader Lua client scripts |
+| modules/lua/mta | MTA Lua client/server resources |
+| modules/cpp/asi | Native C++ ASI modules |
+| modules/assets/blender | Blender asset tooling |
+
+[Module index](modules/README.md) and the current catalog use these runtime folders. The same prepare_references.py command now reads archives from the new paths. Earlier module-level archives remain compatibility copies.

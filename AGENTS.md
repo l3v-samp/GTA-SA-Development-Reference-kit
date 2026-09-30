@@ -37,3 +37,10 @@ New jobs/HUD/inventory systems must have feature config, data, service logic, UI
 ## Source preparation before feature implementation
 
 After reading the module guide, run `python3 modules/prepare_references.py --feature FEATURE` (miner, speedometer, needs, inventory, filterscripts) or `--all --starters` before source inspection. This local tool extracts bundled source archives with checksum validation, keeps gamemodes/filterscripts/collections/dependencies separate and refuses to overwrite modified files. For changed archive versions, choose a fresh destination. Use modules/REFERENCE_CATALOG.json and REFERENCE_FILE_INDEX.tsv for exact prepared file paths. Read modules/PREPARE_REFERENCES.md. Do not stop at archive links or catalog descriptions: inspect actual extracted Pawn and associated includes/persistence/UI code. Three upstream declarations remain unresolved; never claim compilation success without a real build.
+
+
+## Canonical language/runtime folders
+
+Runtime folder layout is now modules/pawn/samp, modules/lua/moonloader, modules/lua/mta, modules/cpp/asi and modules/assets/blender. Pawn is the language; SA-MP 0.3.7 and open.mp are runtimes within modules/pawn/samp. Their scaffold has distinct entrypoints. Place new Pawn references and libraries in that folder, never in Lua or generic Python script directories. Keep Lua client APIs for MoonLoader separate from MTA client/server APIs.
+
+Use modules/REFERENCE_CATALOG.json and modules/prepare_references.py for current archive paths. Pawn-specific FEATURE_GUIDE.md, FEATURE_INDEX.json, INCLUDE_AUDIT.json, REFERENCE_FILE_INDEX.tsv, REFERENCE_LOCK.json and DEPENDENCY_REPORT.md now live in modules/pawn/samp. Earlier root-level copies are compatibility files; canonical runtime folders take priority. Continue to extract before reading source and document exact versions and runtime validation.
