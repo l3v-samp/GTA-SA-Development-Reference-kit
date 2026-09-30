@@ -20,4 +20,8 @@ Extract selected source archives into a working reference directory and extract 
 
 SOURCE archives exclude binaries, custom model/audio assets, player data, secrets and database row dumps; pure schema files remain. They are reference snapshots, not ready-to-run complete servers. Wild-West-Roleplay, SP-RP and AdvancedRP contain 0.3.DL code: reuse algorithms only after porting DL APIs/assets to the selected 0.3.7 or open.mp target. PatrickGTR/gta-open is the open.mp gamemode reference; inspect its pinned manifest before use.
 
-DEPENDENCY_REPORT.md explicitly lists four unresolved declarations, including missing crashdetect tags, a malformed logger name and a commit-style YSI spec. Do not assume dependency closure or silently replace versions. Preserve upstream licenses and attribution; unlicensed code requires permission before redistribution as your own implementation.
+DEPENDENCY_REPORT.md explicitly lists three unresolved declarations: two legacy crashdetect refs and a malformed logger name. Do not assume dependency closure or silently replace versions. Preserve upstream licenses and attribution; unlicensed code requires permission before redistribution as your own implementation.
+
+## Prepare sources automatically
+
+Read [PREPARE_REFERENCES.md](PREPARE_REFERENCES.md). Run `python3 modules/prepare_references.py --all --starters` from the checkout to create separate gamemode, filterscript, collection, dependency and runtime starter directories. Use `--feature miner`, `--feature speedometer`, `--feature needs` or `--feature inventory` for focused preparation. REFERENCE_CATALOG.json records categories and archive checksums; REFERENCE_FILE_INDEX.tsv lists 3,287 original files and their prepared paths. The pinned YSI commit and all four pinned submodules are now included.

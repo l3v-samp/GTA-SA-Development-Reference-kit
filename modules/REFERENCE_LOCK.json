@@ -1178,8 +1178,24 @@
     },
     "pawn-lang/YSI-Includes#f0f51cd9fc41ed2c7af49833ead7cd3ab7367b50": {
       "spec": "pawn-lang/YSI-Includes#f0f51cd9fc41ed2c7af49833ead7cd3ab7367b50",
-      "status": "unresolved",
-      "reason": "ValueError"
+      "repo": "pawn-lang/YSI-Includes",
+      "requested_ref": "f0f51cd9fc41ed2c7af49833ead7cd3ab7367b50",
+      "commit": "f0f51cd9fc41ed2c7af49833ead7cd3ab7367b50",
+      "folder": "pawn-lang--YSI-Includes--pinned",
+      "status": "fetched",
+      "submodules": [
+        " 72677755a08eaf9919762fcc9bb9f0b2c01fc81d amx (7267775)",
+        " eb2719abee8dbeb8365ea934cf54fd56dac64074 code-parse (eb2719a)",
+        " e9c890ddb10fc3c10dee3c336ccc11de8439e32e indirection (e9c890d)",
+        " b470d0332aca1f2217e9545a19b1b960df6bc124 md-sort (b470d03)"
+      ],
+      "dependencies": [
+        "oscar-broman/md-sort",
+        "sampctl/samp-stdlib",
+        "Y-Less/code-parse.inc",
+        "Y-Less/indirection",
+        "Zeex/amx_assembly"
+      ]
     }
   }
 }

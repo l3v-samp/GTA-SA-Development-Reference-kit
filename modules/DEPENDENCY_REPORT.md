@@ -62,7 +62,7 @@
 - pBlueG/SA-MP-MySQL: fetched (9524fcc9088004948770ddd6e05a6074581d3095)
 - pBlueG/SA-MP-MySQL:R41-4: fetched (937e6c9f3e72d93c83806e8200361ae99e1b5dfd)
 - pawn-lang/YSI-Includes: fetched (fa673344659bce16fc13f0c11151eafbdf7c890f)
-- pawn-lang/YSI-Includes#f0f51cd9fc41ed2c7af49833ead7cd3ab7367b50: unresolved (ValueError)
+- pawn-lang/YSI-Includes#f0f51cd9fc41ed2c7af49833ead7cd3ab7367b50: fetched (f0f51cd9fc41ed2c7af49833ead7cd3ab7367b50); all four pinned submodules fetched
 - pawn-lang/YSI-Includes:v5.10.0006: fetched (93a5e330815a8d4fd97bfeb9ed594c1f9a5db62f)
 - pawn-lang/YSI-Includes@5.x: fetched (fa673344659bce16fc13f0c11151eafbdf7c890f)
 - pawn-lang/pawn-stdlib: fetched (e96507d9a6ddaae5bb0f3ec31479ba805aeff964)

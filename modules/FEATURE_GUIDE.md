@@ -19,4 +19,4 @@ Read source snapshots in their original folders. Compare at least two implementa
 5. Implement in your own feature directory with config/data/service/UI/persistence boundaries. Route callbacks through the project callback owner or its existing hook framework. Register cleanup for timers, TextDraws, pickups, objects and player data.
 6. Report upstream commit, adapted paths, dependencies, license and validation result. Missing includes and plugin binaries must be explicit.
 
-Source archives retain available includes and source dependencies. Runtime binaries, model/audio assets, secrets, player data and database row dumps are excluded. Four dependency declarations remain unresolved (see DEPENDENCY_REPORT.md); no source pack has been certified as build complete.
+Source archives retain available includes and source dependencies. Runtime binaries, model/audio assets, secrets, player data and database row dumps are excluded. Three dependency declarations remain unresolved (see DEPENDENCY_REPORT.md); no source pack has been certified as build complete.
