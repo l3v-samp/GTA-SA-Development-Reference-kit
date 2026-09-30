@@ -2,7 +2,7 @@
 
 Start with [modules/README.md](modules/README.md) for the canonical modular runtime scaffolds and actual reference sources. [modules/FEATURE_GUIDE.md](modules/FEATURE_GUIDE.md) routes miner jobs, speedometers, hunger/thirst, inventory and filterscripts to source files from multiple gamemodes.
 
-The modules directory contains ten upstream Pawn source snapshots, available bundled includes, a separate versioned dependency source pack, feature/include indexes and exact commit locks. It also contains modular Pawn (0.3.7/open.mp), MoonLoader Lua, MTA Lua, ASI C++ and Blender starters. ZIP archives preserve original folder trees; extract them before code inspection. Four upstream dependency declarations remain unresolved and runtime compilation has not been verified. DL-only examples are labeled as porting references.
+The modules directory contains ten upstream Pawn source snapshots, available bundled includes, a separate versioned dependency source pack, feature/include indexes and exact commit locks. It also contains modular Pawn (0.3.7/open.mp), MoonLoader Lua, MTA Lua, ASI C++ and Blender starters. ZIP archives preserve original folder trees; extract them before code inspection. Three upstream dependency declarations remain unresolved and runtime compilation has not been verified. DL-only examples are labeled as porting references.
 
 The older links and templates below remain supplementary; modules/ is authoritative for source/reference routing.
 
@@ -63,3 +63,7 @@ Copy this into projects/<category>/<name>/README.md:
 - References and pinned commits:
 
 Never label an AMX/ASI/DFF/TXD/COL ready for the game until its relevant build/export and runtime checks have actually passed.
+
+## Prepare gamemode and filterscript trees
+
+Run `python3 modules/prepare_references.py --all --starters` after checking out this repository. It creates separate readable source trees for five gamemode repositories, four filterscript repositories, one collection, versioned dependencies and runtime starters. Use `--feature miner`, `--feature speedometer`, `--feature needs` or `--feature inventory` for focused preparation. Read [PREPARE_REFERENCES.md](modules/PREPARE_REFERENCES.md) for paths and options. The source pack now includes the previously missing pinned YSI commit and all four pinned submodules: 75 dependency packages are fetched; three declarations remain unresolved.
