@@ -2,7 +2,7 @@
   "repositories": {
     "DignitySAMP/SP-RP": {
       "commit": "3abda1657c0088f837c3e55ee818ebacfe51eb79",
-      "archive": "DignitySAMP--SP-RP-source.zip",
+      "archive": "pawn/samp/DignitySAMP--SP-RP-source.zip",
       "source_files": 495,
       "pwn_files": 456,
       "inc_files": 5,
@@ -12,7 +12,7 @@
     },
     "DignitySAMP/Wild-West-Roleplay": {
       "commit": "a361bfe07dfb0657037f5de3cc4c0f543a993f36",
-      "archive": "DignitySAMP--Wild-West-Roleplay-source.zip",
+      "archive": "pawn/samp/DignitySAMP--Wild-West-Roleplay-source.zip",
       "source_files": 672,
       "pwn_files": 252,
       "inc_files": 332,
@@ -22,7 +22,7 @@
     },
     "Fabiann227/AdvancedRP-SAMP": {
       "commit": "25d0c6105bea1b6de35f81ba43ab4c5bb4970262",
-      "archive": "Fabiann227--AdvancedRP-SAMP-source.zip",
+      "archive": "pawn/samp/Fabiann227--AdvancedRP-SAMP-source.zip",
       "source_files": 774,
       "pwn_files": 349,
       "inc_files": 401,
@@ -32,7 +32,7 @@
     },
     "PatrickGTR/gta-open": {
       "commit": "c7630a5751827c23cf06308fd7b2d0095801e76e",
-      "archive": "PatrickGTR--gta-open-source.zip",
+      "archive": "pawn/samp/PatrickGTR--gta-open-source.zip",
       "source_files": 236,
       "pwn_files": 6,
       "inc_files": 191,
@@ -42,7 +42,7 @@
     },
     "ST4NSB/samp-filterscripts": {
       "commit": "97705676aca06ae6849636e8e7dbeb66f14789ab",
-      "archive": "ST4NSB--samp-filterscripts-source.zip",
+      "archive": "pawn/samp/ST4NSB--samp-filterscripts-source.zip",
       "source_files": 4,
       "pwn_files": 3,
       "inc_files": 0,
@@ -52,7 +52,7 @@
     },
     "Southclaws/ScavengeSurvive": {
       "commit": "399ba8e8fd164243b32fb694f4bb6ce37fe40c35",
-      "archive": "Southclaws--ScavengeSurvive-source.zip",
+      "archive": "pawn/samp/Southclaws--ScavengeSurvive-source.zip",
       "source_files": 786,
       "pwn_files": 284,
       "inc_files": 6,
@@ -62,7 +62,7 @@
     },
     "Southclaws/samp-animbrowse": {
       "commit": "058fc1578bb3ad542a5c0d5735fbf308e347ba1f",
-      "archive": "Southclaws--samp-animbrowse-source.zip",
+      "archive": "pawn/samp/Southclaws--samp-animbrowse-source.zip",
       "source_files": 5,
       "pwn_files": 1,
       "inc_files": 0,
@@ -72,7 +72,7 @@
     },
     "Southclaws/samp-texture-workshop": {
       "commit": "51304879d0da52900b41107bfeaf07513691b488",
-      "archive": "Southclaws--samp-texture-workshop-source.zip",
+      "archive": "pawn/samp/Southclaws--samp-texture-workshop-source.zip",
       "source_files": 5,
       "pwn_files": 1,
       "inc_files": 0,
@@ -82,7 +82,7 @@
     },
     "ins1x/useful-samp-stuff": {
       "commit": "86f74b45523ac3d459c367d8416162c61e0f304a",
-      "archive": "ins1x--useful-samp-stuff-source.zip",
+      "archive": "pawn/samp/ins1x--useful-samp-stuff-source.zip",
       "source_files": 305,
       "pwn_files": 59,
       "inc_files": 178,
@@ -92,7 +92,7 @@
     },
     "yassinebouelkheir/Xeon-SpeedoMeter": {
       "commit": "43b755558a741fcc6b6517a70091db99fbf90885",
-      "archive": "yassinebouelkheir--Xeon-SpeedoMeter-source.zip",
+      "archive": "pawn/samp/yassinebouelkheir--Xeon-SpeedoMeter-source.zip",
       "source_files": 5,
       "pwn_files": 1,
       "inc_files": 1,
@@ -129,28 +129,28 @@
     ]
   },
   "starters": {
-    "pawn": "pawn-modular-starter.zip",
-    "moonloader": "moonloader-modular-starter.zip",
-    "mta": "mta-modular-starter.zip",
-    "asi": "asi-modular-starter.zip",
-    "gta-assets": "gta-assets-modular-starter.zip"
+    "pawn": "pawn/samp/pawn-modular-starter.zip",
+    "moonloader": "lua/moonloader/moonloader-modular-starter.zip",
+    "mta": "lua/mta/mta-modular-starter.zip",
+    "asi": "cpp/asi/asi-modular-starter.zip",
+    "gta-assets": "assets/blender/gta-assets-modular-starter.zip"
   },
   "sha256": {
-    "Southclaws--ScavengeSurvive-source.zip": "5bd9768bea5046b31698ddf22e8f5df4c65c5fcd41f25a06151eec04c64523a6",
-    "Southclaws--samp-animbrowse-source.zip": "cc6f4f0d535b3173707b2ebebc554bc85251f07fd9503d86c092919e71f5abe5",
-    "pawn-reference-dependencies.zip": "57cd3c189577d2e3fec8c59b2ef9cb73f4e2dc7e63371d1edf903c8922ef443c",
-    "Southclaws--samp-texture-workshop-source.zip": "07fdd36e9f5b3521a7c0a5e39fb7b048d78fe3ced03ee2326a659d132b8c45f8",
-    "DignitySAMP--Wild-West-Roleplay-source.zip": "f7acb00b0aca952a34c62ee77c8baeb5cbba95b79cce693520ec0c39416a12b4",
-    "yassinebouelkheir--Xeon-SpeedoMeter-source.zip": "7b899a5748a7af049487d3b298349f9acaa2271195e3491ef48c37e54d8700c0",
-    "ST4NSB--samp-filterscripts-source.zip": "1a2c281c29c1a46e83b1e19c1f7195ef1e763fd79d58f738fddb3341bdfdd603",
-    "gta-assets-modular-starter.zip": "3d70c4c155f75d1ef8cf224345c8c30cca1d8091fe37f57836a5d8b6068e940d",
-    "asi-modular-starter.zip": "5f8b3e04b5c39bded21f06aca9828cfd627ca378b48b77e8b183187c509033e6",
-    "PatrickGTR--gta-open-source.zip": "2ebccea1aa19e1674394e4410751e5aec6fc7f988c6ad764459d4f35691431e6",
-    "pawn-modular-starter.zip": "fd28859e6eb160cf15ecb21c51b39dcc366265cec6838f1c873a4e648b709066",
-    "mta-modular-starter.zip": "a1573d75f836fa1c36de469523ce0c29ea88bcef7a8ded81e0828b89f2de6598",
-    "ins1x--useful-samp-stuff-source.zip": "51a4b11d1adb1547b18f233525583846a09ca2892c4697fbf7c05daa4640bf3b",
-    "Fabiann227--AdvancedRP-SAMP-source.zip": "37eef44f99343bcd7c9eee6b9077fc3863aa870edfdc01a07342280562b0fba0",
-    "moonloader-modular-starter.zip": "0f92efede426792cb44a12e0e82a43c99df95231d7820dbcf320436ab8bdfc0d",
-    "DignitySAMP--SP-RP-source.zip": "ded5eaf6a2d91c5be0cfa7795d7ee0ef532d1031477a96c335ad79a744d38028"
+    "pawn/samp/Southclaws--ScavengeSurvive-source.zip": "5bd9768bea5046b31698ddf22e8f5df4c65c5fcd41f25a06151eec04c64523a6",
+    "pawn/samp/Southclaws--samp-animbrowse-source.zip": "cc6f4f0d535b3173707b2ebebc554bc85251f07fd9503d86c092919e71f5abe5",
+    "pawn/samp/pawn-reference-dependencies.zip": "57cd3c189577d2e3fec8c59b2ef9cb73f4e2dc7e63371d1edf903c8922ef443c",
+    "pawn/samp/Southclaws--samp-texture-workshop-source.zip": "07fdd36e9f5b3521a7c0a5e39fb7b048d78fe3ced03ee2326a659d132b8c45f8",
+    "pawn/samp/DignitySAMP--Wild-West-Roleplay-source.zip": "f7acb00b0aca952a34c62ee77c8baeb5cbba95b79cce693520ec0c39416a12b4",
+    "pawn/samp/yassinebouelkheir--Xeon-SpeedoMeter-source.zip": "7b899a5748a7af049487d3b298349f9acaa2271195e3491ef48c37e54d8700c0",
+    "pawn/samp/ST4NSB--samp-filterscripts-source.zip": "1a2c281c29c1a46e83b1e19c1f7195ef1e763fd79d58f738fddb3341bdfdd603",
+    "assets/blender/gta-assets-modular-starter.zip": "3d70c4c155f75d1ef8cf224345c8c30cca1d8091fe37f57836a5d8b6068e940d",
+    "cpp/asi/asi-modular-starter.zip": "5f8b3e04b5c39bded21f06aca9828cfd627ca378b48b77e8b183187c509033e6",
+    "pawn/samp/PatrickGTR--gta-open-source.zip": "2ebccea1aa19e1674394e4410751e5aec6fc7f988c6ad764459d4f35691431e6",
+    "pawn/samp/pawn-modular-starter.zip": "fd28859e6eb160cf15ecb21c51b39dcc366265cec6838f1c873a4e648b709066",
+    "lua/mta/mta-modular-starter.zip": "a1573d75f836fa1c36de469523ce0c29ea88bcef7a8ded81e0828b89f2de6598",
+    "pawn/samp/ins1x--useful-samp-stuff-source.zip": "51a4b11d1adb1547b18f233525583846a09ca2892c4697fbf7c05daa4640bf3b",
+    "pawn/samp/Fabiann227--AdvancedRP-SAMP-source.zip": "37eef44f99343bcd7c9eee6b9077fc3863aa870edfdc01a07342280562b0fba0",
+    "lua/moonloader/moonloader-modular-starter.zip": "0f92efede426792cb44a12e0e82a43c99df95231d7820dbcf320436ab8bdfc0d",
+    "pawn/samp/DignitySAMP--SP-RP-source.zip": "ded5eaf6a2d91c5be0cfa7795d7ee0ef532d1031477a96c335ad79a744d38028"
   }
 }

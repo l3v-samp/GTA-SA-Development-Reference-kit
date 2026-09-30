@@ -66,7 +66,7 @@ def main():
         entry = catalog['repositories'][repo]
         work.append((entry['archive'], args.destination / 'pawn' / entry['kind'] / repo.replace('/', '--')))
     if selected:
-        work.append(('pawn-reference-dependencies.zip', args.destination / 'pawn'))
+        work.append(('pawn/samp/pawn-reference-dependencies.zip', args.destination / 'pawn'))
     if args.starters:
         for runtime, archive in catalog['starters'].items():
             work.append((archive, args.destination / 'starters' / runtime))
@@ -78,7 +78,7 @@ def main():
     for name, destination in work:
         count = extract(base / name, destination, catalog['sha256'][name])
         print(f'{name}: {count} files -> {destination}')
-    print('Reference extraction complete. See DEPENDENCY_REPORT.md for unresolved packages; builds are not verified.')
+    print('Reference extraction complete. See pawn/samp/DEPENDENCY_REPORT.md for unresolved packages; builds are not verified.')
 
 
 if __name__ == '__main__':
