@@ -12,8 +12,8 @@ Read source snapshots in their original folders. Compare at least two implementa
 
 ## Retrieval
 
-1. Select the archive from REFERENCE_LOCK.json. Extract with `python3 -m zipfile -e modules/OWNER--REPO-source.zip .references`.
-2. Extract `modules/pawn-reference-dependencies.zip` into `.references`; read its DEPENDENCY_LOCK.json and the original pawn.json. Preserve distinct versions in separate directories.
+1. Select the archive from REFERENCE_LOCK.json. Extract with `python3 -m zipfile -e modules/pawn/samp/OWNER--REPO-source.zip .references`.
+2. Extract `modules/pawn/samp/pawn-reference-dependencies.zip` into `.references`; read its DEPENDENCY_LOCK.json and the original pawn.json. Preserve distinct versions in separate directories.
 3. Open the feature file, its includes, associated data/core/GUI/persistence modules and schema. FEATURE_INDEX.json is a keyword discovery index, not a guarantee of a complete feature.
 4. Choose SA-MP 0.3.7 or open.mp explicitly. DL repositories require porting and are algorithm references, not compatibility-tested 0.3.7 builds.
 5. Implement in your own feature directory with config/data/service/UI/persistence boundaries. Route callbacks through the project callback owner or its existing hook framework. Register cleanup for timers, TextDraws, pickups, objects and player data.
