@@ -21,3 +21,6 @@ Fetch only task-relevant sources with scripts/fetch_reference.py; keep them igno
 Keep projects under projects/category/name/ with dependencies, build/export commands and runtime tests in a README.
 Run meaningful compilation or syntax/export checks. Re-import assets and inspect normals, UVs, materials, prelighting, collision, bone IDs and skin weights. State when runtime testing was unavailable. Never claim an AMX/ASI/DFF/TXD/COL is game-ready without relevant verification.
 No paid machine or billing change is authorized by this setup.
+
+## Bundled Pawn source pack
+For Pawn tasks, read PAWN_LIBRARIES.md first. Actual sources are in pawn-libraries-source.zip. Extract with `python3 -m zipfile -e pawn-libraries-source.zip references-cache/pawn`, then search those local files with rg. Use PAWN_SOURCE_LOCK.json for upstream commits and PAWN_FUNCTION_INDEX.tsv as a declaration search aid. Select profiles/samp037 or profiles/openmp; never mix their standard include roots. Inspect matching upstream READMEs before enabling third-party plugins. The archive contains source only, not compiled plugins.
