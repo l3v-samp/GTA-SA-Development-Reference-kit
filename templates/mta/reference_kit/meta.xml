@@ -1,0 +1,5 @@
+<meta>
+    <info name="Reference Kit Starter" author="Development Reference kit" version="1.0" type="script" />
+    <script src="server.lua" type="server" />
+    <script src="client.lua" type="client" cache="false" />
+</meta>
