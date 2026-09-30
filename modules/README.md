@@ -20,4 +20,4 @@ python3 modules/prepare_references.py --all --starters
 
 The command uses the folders above and prepares readable `.references` source trees. Sources remain ZIP snapshots in GitHub, preserving upstream paths, available includes and license files. Runtime starters contain actual Pawn, Lua, C++ and Blender source. Read pawn/samp/FEATURE_GUIDE.md before implementing a requested system. Three dependency declarations remain unresolved and no running-game build has been verified.
 
-Older top-level archives and indexes are retained for compatibility with previous checkout links; the folders above and current catalog are canonical. New source packs must be added to the appropriate runtime folder.
+Duplicate top-level archives and indexes have been removed. New source packs must be added only to their canonical runtime folder.
