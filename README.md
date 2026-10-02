@@ -20,4 +20,4 @@ Use `--feature miner`, `--feature speedometer`, `--feature needs` or `--feature 
 
 Only canonical runtime folders contain source ZIPs. Archives preserve upstream paths, available includes, manifests and license files. Player data, secrets, binaries and game/model/audio assets are excluded. Three dependency declarations remain unresolved; no game build or runtime compatibility is certified. DL examples require porting to the selected 0.3.7/open.mp target.
 
-Keep new work under `projects/<runtime>/<project>/`, document compiler/tool versions and validate on the intended runtime. GitHub stores source; it does not run GTA SA, Blender or Codex. Preserve upstream licenses and attribution.
+Keep new work under `projects/<runtime>/<project>/`, document compiler/tool versions and validate on the intended runtime. GitHub stores source; it does not run GTA SA, Blender. Preserve upstream licenses and attribution.
